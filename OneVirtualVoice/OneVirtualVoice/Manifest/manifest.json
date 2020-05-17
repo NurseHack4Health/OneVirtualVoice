@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.3",
+  "version": "1.0.1",
+  "id": "80972ca0-292f-4c1d-8363-0645f5f3009e",
+  "packageName": "org.nursehack4health.onevirtualvoice",
+  "developer": {
+    "name": "One Virtual Voice",
+    "websiteUrl": "https://d529a656.ngrok.io/patients",
+    "privacyUrl": "https://d529a656.ngrok.io//privacy",
+    "termsOfUseUrl": "https://d529a656.ngrok.io//privacy"
+  },
+  "name": {
+    "short": "One Virtual Voice",
+    "full": "One Virtual Voice"
+  },
+  "description": {
+    "short": "One Virtual Voice",
+    "full": "One Virtual Voice for the Nurse Hack 4 Health"
+  },
+  "icons": {
+    "outline": "contoso20x20.png",
+    "color": "contoso96x96.png"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "org.nursehack4health.onevirtualvoice.main",
+      "name": "Main Dashboard",
+      "contentUrl": "https://d529a656.ngrok.io/patients",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://d529a656.ngrok.io/configure",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "permissions": [],
+  "validDomains": ["d529a656.ngrok.io"]
+}

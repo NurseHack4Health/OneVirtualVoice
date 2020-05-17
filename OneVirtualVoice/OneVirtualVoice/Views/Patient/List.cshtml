@@ -1,0 +1,8 @@
+﻿@model Dictionary<string, string>
+
+@foreach (var patient in Model)
+{
+    <div>
+        <a asp-action="Show" asp-route-id="@patient.Key">@patient.Value</a>
+    </div>
+}
